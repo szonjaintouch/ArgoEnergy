@@ -1,0 +1,1504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Email Subject</title>
+            <meta name="referrer" content="never">
+            <meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">
+            <meta type="xrm/designer/setting" name="layout-editable" value="marketing-designer-layout-editable">
+            <meta type="xrm/designer/setting" name="layout-max-width" value="600px" datatype="text" label="Layout max width">
+            <meta type="xrm/designer/setting" name="font-family" value="Etelka Light, Verdana, Arial, sans-serif" datatype="font" label="Font Family">
+            <meta type="xrm/designer/setting" name="body-text-size" value="16px" datatype="text" label="Body Font Size">
+            <meta type="xrm/designer/setting" name="body-text-color" value="#000" datatype="color" label="Body Text Color">
+            <meta type="xrm/designer/setting" name="outer-background" value="#FFFFF" datatype="color" label="Email Background">
+            <link href="...//WebResources/en_etelka-light.woff" rel="stylesheet">
+            <link href="...//WebResources/en_etelka-mediumpro.woff" rel="stylesheet">
+            <link href="...//WebResources/en_etelka-textprobold.woff" rel="stylesheet">
+            <link href="...//WebResources/en_etelka-light.woff2" rel="stylesheet">
+            <link href="...//WebResources/en_etelka-mediumpro.woff2" rel="stylesheet">
+            <link href="...//WebResources/en_etelka-textprobold.woff2" rel="stylesheet">
+            <meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="Etelka Light">
+            <meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="Etelka Medium">
+            <meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="Etelka Bold">
+            <style>
+                @font-face{
+                    font-family: 'Etelka Light';
+                    src: url( ...//WebResources/en_etelka-light.woff2),
+                         url( ...//WebResources/en_etelka-light.woff);
+                }
+                @font-face{
+                    font-family: 'Etelka Medium';
+                    src: url( ...//WebResources/en_etelka-mediumpro.woff2),
+                        url( ...//WebResources/en_etelka-mediumpro.woff);
+                }
+                @font-face{
+                    font-family: 'Etelka Bold';
+                    src: url( ...//WebResources/en_etelka-textprobold.woff2),
+                         url( ...//WebResources/en_etelka-textprobold.woff);
+                }
+                body, div {
+                    font-family: /* @font-family */
+                    Etelka Light,
+                    Verdana, /* @font-family */
+                    Arial, /* @font-family */
+                    sans-serif, /* @font-family */
+                    Etelka Medium, /* @additional-fonts */
+                    Etelka Bold /* @additional-fonts */
+                    ;
+                    font-size: /* @body-text-size */
+                    14px/* @body-text-size */
+                    ;
+                    color: /* @body-text-color */
+                    #000/* @body-text-color */
+                    ;
+                    background-color: /* @outer-background */
+                    #fff/* @outer-background */
+                    ;
+                }
+
+                div div {
+                    background-color: transparent;
+                }
+
+                [data-layout="true"] {
+                    margin: 0 auto;
+                    max-width: /* @layout-max-width */
+                    600px/* @layout-max-width */
+                    ;
+                }
+
+                p {
+                    margin: 0px;
+                    padding: 0px;
+                    line-height: 125%;
+                    line-height: 1.25;
+                    mso-line-height-rule: at-least;
+                }
+
+                [dir="rtl"], [dir="rtl"] * {
+                    text-align: right;
+                }
+
+                s span {
+                    text-decoration: line-through;
+                }
+
+                u span {
+                    text-decoration: underline;
+                }
+
+                .dividerWrapper p span {
+                    line-height: 0px;
+                }
+
+                ul, ol {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    line-height: 125%;
+                    line-height: 1.25;
+                    mso-line-height-rule: at-least;
+                }
+
+                p img {
+                    max-width: 100%;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+
+                u a {
+                    text-decoration: underline;
+                }
+
+ /* Styles from here on */
+                h1 {
+                    font-size: 40px;
+                    font-family: Etelka Bold;
+                }
+
+                h2 {
+                    font-size: 32px;
+                    font-family: Etelka Medium;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    font-family: Etelka Medium;
+                }
+
+                h1, h2, h3, h4 {
+                    margin: 0px;
+                }
+
+                .imageWrapper a img {
+                    text-decoration: none;
+                    border: 0px;
+                }
+
+                th.columnContainer,
+                th.inner {
+                    font-weight: normal;
+                    text-align: left;
+                }
+
+                [dir="rtl"] th.columnContainer,
+                [dir="rtl"] th.inner {
+                    font-weight: normal;
+                    text-align: right;
+                }
+
+                @media only screen and (max-width: 768px) {
+                    .tbContainer {display: block !important;}
+                    
+                    a span {
+                        line-height: inherit !important;
+                    }
+
+                    .multi table {
+                        table-layout: fixed;
+                        height:auto !important;
+                    }
+                    
+                    .multi td {
+                        width: auto !important;
+                        min-height: auto !important;
+                    }
+                    
+                    .multi tbody,
+                    .multi tbody tr,
+                    .multi tbody tr td,
+                    .multi tbody tr th,
+                    .outer tbody,
+                    .outer tbody tr,
+                    .outer tbody tr td,
+                    .outer tbody tr th {
+                        display: block;
+                        width: 100% !important;
+                        box-sizing: border-box;
+                        height: auto !important;
+                        min-height: auto !important;
+                    } 
+                    
+                    .multi .inner {
+                        height: auto !important;
+                        min-height: auto !important;
+                    }
+
+                    .tbContainer .inner {box-sizing: border-box}
+
+                    .outer {
+                        width: 100% !important;
+                    }
+
+                    .tbContainer .columnContainer table {
+                        table-layout: fixed !important;
+                    }
+
+                    .innerTable {
+                        min-height: auto !important;
+                    }
+                    .no-wrap-section .outer .multi tbody tr td,
+                    .no-wrap-section .outer .multi tbody tr th {
+                        display: table-cell !important;
+                    }
+                    .no-wrap-section .outer .multi tbody tr td.inner,
+                    .no-wrap-section .outer .multi tbody tr th.inner {
+                        display: block !important;
+                    }
+                    .no-wrap-section .outer .multi .dividerWrapper tbody tr td,
+                    .no-wrap-section .outer .multi .dividerWrapper tbody tr th {
+                        display: block !important;
+                    }
+                    .no-wrap-section .containerWrapper tr {
+                        display: flex !important;
+                    }
+                    .no-wrap-section .containerWrapper .innerTable tr {
+                        display: block !important;
+                    }
+                }
+            </style>
+        </head>
+        <body><div data-layout="true" style="margin: auto; max-width: 600px;">
+                <div data-section="true" class="emptyContainer columns-equal-class wrap-section" style="background-image: linear-gradient(to right, #e5384c, #ea754f); background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;">
+                <table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                    <tbody>
+                        <tr>
+                            <th style="padding: 10px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                                <table style="width: 100%;border-collapse: collapse;" class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <th data-container="true" class="columnContainer" data-container-width="50.00" style="vertical-align: top; min-width: 5px; width: 290px; height: 0px;" id="container9a7b7520f11031637326905838">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; min-height: 39px; height: 100%;" class="innerTable">
+                                            <tbody>
+                                                <tr>
+                                                    <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 19px; min-height: 19px; font-weight: normal; text-align: left;">
+                                                        
+        
+                                                    <div data-editorblocktype="Text" style="margin: 0px;"><p><span style="font-size:14px;"><span style="color:#ffffff;">Bedankt dat je voor Eneco kiest</span></span></p>
+
+
+
+
+</div></th>
+                                                </tr></tbody>
+                                        </table>
+                                    </th>
+                                <th data-container="true" class="columnContainer" data-container-width="50.00" style="vertical-align: top; min-width: 5px; width: 290px; padding: 0px; height: 0px;" id="container2df34ac3aa721637327905305"><table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 39px; border-collapse: collapse; height: 100%;">
+                        <tbody>
+                            <tr>
+                                <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 19px; min-height: 19px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                    
+        
+                                <div data-editorblocktype="Text"><p style="text-align: right;"><a href="{{Message.ViewAsWebpageURL}}#_msdynmkt_donottrack=0"><span style="font-size:14px;"><span style="color:#ffffff;">Webversie</span></span></a></p>
+
+
+
+
+
+
+
+</div></th>
+                            </tr>
+                        </tbody>
+                    </table></th></tr></tbody>
+                            </table>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+            <tbody>
+            <tr>
+            <th style="padding: 10px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="50.00" style="vertical-align: top; min-width: 5px; width: 290px; height: 0px;" id="container509bf84545ccf1637328207704">
+                                <table width="100%" style="table-layout: fixed; border-collapse: collapse; min-height: 95px; height: 100%;" cellpadding="0" cellspacing="0" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 75px; min-height: 75px; font-weight: normal; text-align: left;">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="left" class="imageWrapper" style="width: 100%;" width="100%"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/ME2Bk?pubver=1" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px auto 0px 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px; height: 74px; width: 150px;" height="74" width="150"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="50.00" style="vertical-align: top; min-width: 5px; width: 290px; padding: 0px; height: 0px;" id="containera88a25a0714051637328207704">
+                                <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 95px; border-collapse: collapse; height: 100%;">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: middle; word-wrap: break-word; word-break: break-word; height: 75px; min-height: 75px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Text"><p style="text-align: right;"><span style="font-size:16px;"><span style="font-family:Etelka Medium;">Nieuwsbrief</span></span></p>
+</div><div data-editorblocktype="Text"><p style="text-align: right;">Klantnummer: <span class="msdynmkt_personalization">{{CustomerNumber}}</span><br>
+DATA YEAR</p>
+
+</div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align: top; min-width: 5px; width: 600px; padding: 0px; height: 0px;" id="container01e210dd10cdc1637328385416">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 0px; vertical-align: top; word-wrap: break-word; word-break: break-word; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                  
+        
+                                  <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/ME2Bn?pubver=5" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="emptyContainer columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container3c69f2f9c0eb21637328455529">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 20px;"><h1>Nieuw HollandseWind Certificaten®</h1>
+
+
+
+
+</div><div data-editorblocktype="Text" style="margin: 0px 0px 20px;"><p><span style="line-height:1.75;">Investeer in windpark De Beemden. Kies voor Eneco HollandseWind® met windkrachtkorting. Hallo in windpark De Beemden.</span></p>
+
+
+
+
+
+
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="background-image: linear-gradient(to right, #e5384c, #ea754f); text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(34, 102, 227); border-radius: 4px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(255, 255, 255); border-width: 1px; border-style: none; font-size: 16px; mso-hide: none !important;" data-msdyn-tracking-id="8a6cc8726a0d41637328998152"><span style="font-family:Etelka Medium, Verdana, Arial, sans-serif;">Bekijk prijzen</span></a></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(205, 227, 187); margin: 0px 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 0px 0px 10px; background-color: rgb(205, 227, 187); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align: top; min-width: 5px; width: 600px; padding: 0px; height: 0px;" id="container70b8665fc9bbe1637329328877">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 0px; vertical-align: top; word-wrap: break-word; word-break: break-word; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                  
+        
+                                  <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEid4?pubver=0" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;" alt=""></div></div><div data-editorblocktype="Text" style="margin: 30px 20px;"><h2><span style="color:#0a4033;">Tijd voor de volgende termijn</span></h2>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="containerf150baa662b041637329921949">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 20px;"><p><span style="font-size:16px;"><span style="line-height:1.75;"><span style="font-family: &quot;Etelka Medium&quot;; line-height: 1.75;">Beste heer Voornaam</span></span></span></p>
+
+<p><span style="line-height:1.75;">Investeer in windpark De Beemden. Kies voor Eneco HollandseWind® met windkrachtkorting. Investeer in windpark De Beemden</span></p>
+
+
+
+
+
+
+
+
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="background-image: linear-gradient(to right, #e5384c, #ea754f); text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(34, 102, 227); border-radius: 4px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(255, 255, 255); border-width: 1px; border-style: none; font-size: 16px; mso-hide: none !important;" data-msdyn-tracking-id="8a6cc8726a0d41637328998152"><span style="font-family:Etelka Medium, Verdana, Arial, sans-serif;">Direct betalen</span></a></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                    <tr>
+                      <th style="padding: 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                      <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="50" style="vertical-align: top; min-width: 5px; width: 300px; padding: 0px; height: 0px;" id="container7460824e63ab51637570743531">
+                              <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; min-height: 399px; height: 100%;" class="innerTable">
+                                  <tbody>
+                                  <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px 10px 10px 0px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 379px; min-height: 379px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEapf?pubver=2" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div><div data-editorblocktype="Text" style="margin: 15px 0px 0px 20px;"><h3><span style="font-size:20px;">Toon, de slimme thermostaat</span></h3>
+
+</div><div data-editorblocktype="Text" style="margin: 10px 0px 0px 20px;"><p><span style="line-height:1.75;"><span style="font-family: &quot;Etelka Light&quot;; line-height: 1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta&nbsp;</span></span></p>
+
+</div><div data-editorblocktype="Text" style="margin: 20px;"><p><span style="font-size:16px;"><span style="font-family:Etelka Medium;"><span style="color:#e5384c;">&gt; Bekijk de prijzen</span></span></span></p>
+</div></th>
+                                  </tr>
+                                  </tbody>
+                              </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="50" style="vertical-align: top; min-width: 5px; width: 300px; padding: 0px; height: 0px;" id="container8f25466db2ffb1637570743531">
+                              <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 399px; border-collapse: collapse; height: 100%;">
+                                  <tbody>
+                                  <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px 0px 10px 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 379px; min-height: 379px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEid4?pubver=1" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div><div data-editorblocktype="Text" style="margin: 15px 0px 0px 20px;"><h3><span style="font-size:20px;">Inzicht in je verbruik</span></h3>
+</div><div data-editorblocktype="Text" style="margin: 10px 0px 0px 20px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus.&nbsp;</span></p>
+
+</div><div data-editorblocktype="Text" style="margin: 20px;"><p><span style="font-size:16px;"><span style="font-family:Etelka Medium;"><span style="color:#e5384c;">&gt; Bekijk de prijzen</span></span></span></p>
+
+</div></th>
+                                  </tr>
+                                  </tbody>
+                              </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px 10px 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="containerd99f499bc52781637572107474">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><h3>Jouw bestelling</h3>
+
+
+
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+            <tbody>
+            <tr>
+            <th style="padding: 10px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="33" style="vertical-align: top; min-width: 5px; width: 191.40px; padding: 0px; height: 0px;" id="container6ed947c5e42221637572088961">
+                                <table width="100%" style="table-layout: fixed; border-collapse: collapse; min-height: 219px; height: 100%;" cellpadding="0" cellspacing="0" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 0px 10px 0px 0px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 219px; min-height: 219px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEid7?pubver=0" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="67" style="vertical-align: top; min-width: 5px; width: 388.60px; padding: 0px; height: 0px;" id="container8b2c8656931741637572088961">
+                                <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 219px; border-collapse: collapse; height: 100%;">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 0px 10px 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 209px; min-height: 209px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Text"><h3>Eneco KetelComfort<span style="line-height:1.75;">®</span> Top+</h3>
+
+</div><div data-editorblocktype="Text"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus.&nbsp;eu, porta lacus.&nbsp;</span></p>
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 10px 10px 10px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(126, 195, 137); border-radius: 20px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 5px 15px; max-width: 100%; line-height: normal; border-color: rgb(255, 255, 255); border-width: 1px; border-style: none; font-size: 14px; mso-hide: none !important;" data-msdyn-tracking-id="25f04e7cffc811637572323998"><span style="font-family: Verdana, Arial, sans-serif;">Inclusief KetelCheck</span></a></div><div data-editorblocktype="Button" align="left" style="margin: 10px 10px 10px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(126, 195, 137); border-radius: 20px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 5px 15px; max-width: 100%; line-height: normal; border-color: rgb(255, 255, 255); border-width: 1px; border-style: none; font-size: 14px; mso-hide: none !important;" data-msdyn-tracking-id="25f04e7cffc811637572323998"><span style="font-family: Verdana, Arial, sans-serif;">25% korting op het eerste jaar</span></a></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="containera7e637bff04261637574419732">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 10px;"><h3>Wat als de afschrijving niet lukt?</h3>
+</div><div data-editorblocktype="Text"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. </span></p>
+
+<p><br></p>
+
+<p><span style="line-height:1.75;">Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque. Donec molestie aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(225, 244, 241); margin: 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 560px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px; background-color: rgb(225, 244, 241); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align: top; min-width: 5px; width: 540px; height: 0px;" id="containerbd438d244b7e11637574139334">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 10px 0px 0px;"><h3>Meer informatie</h3>
+</div><div data-editorblocktype="Text" style="margin: 10px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque.&nbsp;</span></p>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="containera7e637bff04261637574419732">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 10px;"><h3>De betalingsregeling sneller aflossen?</h3>
+
+</div><div data-editorblocktype="Text"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. </span></p>
+
+<p><br></p>
+
+<p><span style="line-height:1.75;">Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque. Donec molestie aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+
+
+
+
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(254, 244, 224); margin: 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 560px; display: block;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px; background-color: rgb(254, 244, 224); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align: top; min-width: 5px; width: 540px; height: 0px;" id="containerbd438d244b7e11637574139334">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 10px 0px 0px;"><h3>Hoe werkt het</h3>
+
+</div><div data-editorblocktype="Text" style="margin: 10px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque.&nbsp;</span></p>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container44b41c3c84ad41637586833653">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 10px;"><h3>Schakel nog meer om met Eneco StukjeZon<span style="line-height:1.75;">®</span></h3>
+</div><div data-editorblocktype="Text"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. </span></p>
+
+<p><br></p>
+
+<p><span style="line-height:1.75;">Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque. Donec molestie aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="background-image: linear-gradient(to right, #e5384c, #ea754f); text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(34, 102, 227); border-radius: 4px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(255, 255, 255); border-width: 1px; border-style: none; font-size: 16px; mso-hide: none !important;" data-msdyn-tracking-id="8a6cc8726a0d41637328998152"><span style="font-family:Etelka Medium, Verdana, Arial, sans-serif;">Alles over Eneco StukjeZon</span></a></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container44b41c3c84ad41637586833653">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 10px;"><h3>Schakel nog meer om met Eneco StukjeZon<span style="line-height:1.75;">®</span></h3>
+</div><div data-editorblocktype="Text"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. </span></p>
+
+<p><br></p>
+
+<p><span style="line-height:1.75;">Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque. Donec molestie aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(255, 255, 255); border-radius: 4px; color: rgb(9, 53, 75); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(114, 189, 206); border-width: 2px; border-style: solid; font-size: 14px; font-weight: bold; mso-hide: none !important;" data-msdyn-tracking-id="f3a28fb6f7e391637587318134"><span style="font-family: Verdana, Arial, sans-serif;">Bekijk prijzen</span></a></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container44b41c3c84ad41637586833653">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 0px 0px 10px;"><h3>Schakel nog meer om met Eneco StukjeZon<span style="line-height:1.75;">®</span></h3>
+
+</div><div data-editorblocktype="Text"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed porta risus vel nisi euismod, nec iaculis enim porta. Nullam dapibus luctus auctor. Pellentesque eget nisl in ante faucibus venenatis. </span></p>
+
+<p><br></p>
+
+<p><span style="line-height:1.75;">Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque. Donec molestie aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(126, 195, 137); border-radius: 4px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(114, 189, 206); border-width: 2px; border-style: none; font-size: 14px; font-weight: bold; mso-hide: none !important;" data-msdyn-tracking-id="f3a28fb6f7e391637587318134"><span style="font-family: Verdana, Arial, sans-serif;">Ja, ik ga akkoord</span></a></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+            <tbody>
+            <tr>
+            <th style="padding: 10px 10px 0px 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="33" style="vertical-align: top; min-width: 5px; width: 194.70px; padding: 0px; height: 0px;" id="container3a83f0392cc9d1637587557056">
+                                <table width="100%" style="table-layout: fixed; border-collapse: collapse; min-height: 188px; height: 100%;" cellpadding="0" cellspacing="0" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 0px 10px 0px 0px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 188px; min-height: 188px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEfC1?pubver=0" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="67" style="vertical-align: top; min-width: 5px; width: 395.30px; height: 0px;" id="containerf36f8502fa6bd1637587557056">
+                                <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 188px; height: 100%;">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 168px; min-height: 168px; font-weight: normal; text-align: left;">
+                                        
+        
+                                      <div data-editorblocktype="Text"><h3>Altijd inzicht in uw verbruik</h3>
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed</span></p>
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="background-image: linear-gradient(to right, #e5384c, #ea754f); text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(34, 102, 227); border-radius: 4px; color: rgb(255, 255, 255); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(255, 255, 255); border-width: 1px; border-style: none; font-size: 16px; mso-hide: none !important;" data-msdyn-tracking-id="8a6cc8726a0d41637328998152"><span style="font-family:Etelka Medium, Verdana, Arial, sans-serif;">Download de app</span></a></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgba(0, 0, 0, 0); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+            <tbody>
+            <tr>
+            <th style="padding: 10px 10px 20px 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="33" style="vertical-align: top; min-width: 5px; width: 194.70px; padding: 0px; height: 0px;" id="container3a83f0392cc9d1637587557056">
+                                <table width="100%" style="table-layout: fixed; border-collapse: collapse; min-height: 187px; height: 100%;" cellpadding="0" cellspacing="0" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 0px 10px 0px 0px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 187px; min-height: 187px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEidd?pubver=1" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="67" style="vertical-align: top; min-width: 5px; width: 395.30px; height: 0px;" id="containerf36f8502fa6bd1637587557056">
+                                <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 187px; height: 100%;">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 167px; min-height: 167px; font-weight: normal; text-align: left;">
+                                        
+        
+                                      <div data-editorblocktype="Text"><h3>Altijd inzicht in uw verbruik</h3>
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed</span></p>
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(255, 255, 255); border-radius: 4px; color: rgb(9, 53, 75); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(114, 189, 206); border-width: 2px; border-style: solid; font-size: 14px; font-weight: bold; mso-hide: none !important;" data-msdyn-tracking-id="f3a28fb6f7e391637587318134"><span style="font-family: Verdana, Arial, sans-serif;">Download de app</span></a></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(228, 239, 216); margin: 0px 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+            <tbody>
+            <tr>
+            <th style="padding: 10px 10px 20px; background-color: rgb(228, 239, 216); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="33" style="vertical-align: top; min-width: 5px; width: 191.40px; padding: 0px; height: 0px;" id="container3a83f0392cc9d1637587557056">
+                                <table width="100%" style="table-layout: fixed; border-collapse: collapse; min-height: 193px; height: 100%;" cellpadding="0" cellspacing="0" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 173px; min-height: 173px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEid7?pubver=1" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="67" style="vertical-align: top; min-width: 5px; width: 388.60px; height: 0px;" id="containerf36f8502fa6bd1637587557056">
+                                <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 193px; height: 100%;">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 173px; min-height: 173px; font-weight: normal; text-align: left;">
+                                        
+        
+                                      <div data-editorblocktype="Text"><h3>Altijd inzicht in uw verbruik</h3>
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed</span></p>
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(255, 255, 255); border-radius: 4px; color: rgb(0, 0, 0); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(114, 189, 206); border-width: 2px; border-style: none; font-size: 14px; font-weight: bold; mso-hide: none !important;" data-msdyn-tracking-id="f3a28fb6f7e391637587318134"><span style="font-family: Verdana, Arial, sans-serif;">Download de app</span></a></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(231, 230, 244); margin: 0px 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+            <tbody>
+            <tr>
+            <th style="padding: 10px; background-color: rgb(231, 230, 244); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="33" style="vertical-align: top; min-width: 5px; width: 191.40px; padding: 0px; height: 0px;" id="container3a83f0392cc9d1637587557056">
+                                <table width="100%" style="table-layout: fixed; border-collapse: collapse; min-height: 193px; height: 100%;" cellpadding="0" cellspacing="0" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 173px; min-height: 173px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEfBM?pubver=1" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px;"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th data-container="true" class="columnContainer" data-container-width="67" style="vertical-align: top; min-width: 5px; width: 388.60px; height: 0px;" id="containerf36f8502fa6bd1637587557056">
+                                <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 193px; height: 100%;">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 173px; min-height: 173px; font-weight: normal; text-align: left;">
+                                        
+        
+                                      <div data-editorblocktype="Text"><h3>Altijd inzicht in uw verbruik</h3>
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, porta lacus. Sed</span></p>
+
+</div><div data-editorblocktype="Button" align="left" style="margin: 20px 0px 0px;" class="buttonWrapper"><a class="buttonClass" href="#Button#_msdynmkt_donottrack=0" style="text-align: center; margin-right: auto; margin-left: 0px; display: inline-block; text-decoration: none; background-color: rgb(255, 255, 255); border-radius: 4px; color: rgb(0, 0, 0); width: fit-content; height: auto; padding: 10px 20px; max-width: 100%; line-height: normal; border-color: rgb(114, 189, 206); border-width: 2px; border-style: none; font-size: 14px; font-weight: bold; mso-hide: none !important;" data-msdyn-tracking-id="f3a28fb6f7e391637587318134"><span style="font-family: Verdana, Arial, sans-serif;">Download de app</span></a></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table> 
+                            </th></tr></tbody></table> 
+                         
+                      
+                    
+                  
+                </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container0320f598bff091637588375815">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><h3>Download nu de Eneco app en maak kans op een bol.com cadeaubon van €75</h3>
+
+
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p><span style="line-height:1.75;">Nullam bibendum purus nec tortor feugiat, a volutpat purus scelerisque. Donec molestie aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+</div><div data-editorblocktype="Image" style="padding: 0px; margin: 20px 0px 0px;"><div align="left" class="imageWrapper" style="width: 100%;" width="100%"><a href="https://www.nu.nl/#_msdynmkt_donottrack=0"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEfBV?pubver=1" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px; height: 50px; width: 150px;" height="50" width="150"></a></div></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="containerf894d5fbbd1a11637588557642">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><h3>Uw nieuwe tarief</h3>
+
+
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p>Table header left</p>
+</div><div data-editorblocktype="Text" style="margin: 20px 0px 0px;"><p><span style="color:#999999;">Dit gaat in per 01-01-2022</span></p>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(240, 240, 240); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px 10px 0px; background-color: rgb(240, 240, 240); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container4b64b0a41e8be1637588776355">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><h3>Wat gebeurd er na mijn aanvraag?</h3>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(240, 240, 240); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                    <tr>
+                      <th style="padding: 10px; background-color: rgb(240, 240, 240); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="20.00" style="vertical-align: top; min-width: 5px; width: 116px; padding: 0px; height: 0px;" id="containera5ad8e3db634d1637588737068">
+                                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; min-height: 100px; height: 100%;" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: middle; word-wrap: break-word; word-break: break-word; height: 80px; min-height: 80px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEd0u?pubver=2" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px; height: 42px; width: 50px;" height="42" width="50"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            <th data-container="true" class="columnContainer" data-container-width="80.00" style="vertical-align: top; min-width: 5px; width: 464px; height: 0px;" id="container7452db485ed3f1637588737069">
+                              <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 100px; height: 100%;">
+                                <tbody>
+                                  <tr>
+                                    <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 80px; min-height: 80px; font-weight: normal; text-align: left;">
+                                      
+        
+                                    <div data-editorblocktype="Text"><h3>Uw bedenktijd</h3>
+</div><div data-editorblocktype="Text" style="margin: 5px 0px 0px;"><p><span style="line-height:1.75;">aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+</div></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            
+                          </tr>
+                        </tbody>
+                      </table> 
+                          </th></tr></tbody></table> 
+                       
+                    
+                  
+                
+              </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(240, 240, 240); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+                  <tbody>
+                    <tr>
+                      <th style="padding: 10px; background-color: rgb(240, 240, 240); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="20.00" style="vertical-align: top; min-width: 5px; width: 116px; padding: 0px; height: 0px;" id="containera5ad8e3db634d1637588737068">
+                                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; min-height: 100px; height: 100%;" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: middle; word-wrap: break-word; word-break: break-word; height: 80px; min-height: 80px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEidg?pubver=0" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px; height: 54px; width: 50px;" height="54" width="50"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            <th data-container="true" class="columnContainer" data-container-width="80.00" style="vertical-align: top; min-width: 5px; width: 464px; height: 0px;" id="container7452db485ed3f1637588737069">
+                              <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 100px; height: 100%;">
+                                <tbody>
+                                  <tr>
+                                    <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 80px; min-height: 80px; font-weight: normal; text-align: left;">
+                                      
+        
+                                    <div data-editorblocktype="Text"><h3>Gratis overstap</h3>
+
+</div><div data-editorblocktype="Text" style="margin: 5px 0px 0px;"><p><span style="line-height:1.75;">aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+
+</div></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            
+                          </tr>
+                        </tbody>
+                      </table> 
+                          </th></tr></tbody></table> 
+                       
+                    
+                  
+                
+              </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(240, 240, 240); margin: 0px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+                  <tbody>
+                    <tr>
+                      <th style="padding: 10px; background-color: rgb(240, 240, 240); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                        <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer multi" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <th data-container="true" class="columnContainer" data-container-width="20.00" style="vertical-align: top; min-width: 5px; width: 116px; padding: 0px; height: 0px;" id="containera5ad8e3db634d1637588737068">
+                                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; min-height: 100px; height: 100%;" class="innerTable">
+                                  <tbody>
+                                    <tr>
+                                      <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: middle; word-wrap: break-word; word-break: break-word; height: 80px; min-height: 80px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;" align="left">
+                                        
+        
+                                      <div data-editorblocktype="Image" style="padding: 0px; margin: 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEd0A?pubver=2" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px; height: 77px; width: 50px;" height="77" width="50"></div></div></th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                            <th data-container="true" class="columnContainer" data-container-width="80.00" style="vertical-align: top; min-width: 5px; width: 464px; height: 0px;" id="container7452db485ed3f1637588737069">
+                              <table width="100%" cellpadding="0" cellspacing="0" class="innerTable" style="min-height: 100px; height: 100%;">
+                                <tbody>
+                                  <tr>
+                                    <th class="columnContainer inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; height: 80px; min-height: 80px; font-weight: normal; text-align: left;">
+                                      
+        
+                                    <div data-editorblocktype="Text"><h3>Energielevering</h3>
+
+
+</div><div data-editorblocktype="Text" style="margin: 5px 0px 0px;"><p><span style="line-height:1.75;">aliquam dui, ut ultrices massa fermentum a. Phasellus ultricies cursus tellus vitae venenatis. Aenean pretium cursus purus,</span></p>
+
+
+</div></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            
+                          </tr>
+                        </tbody>
+                      </table> 
+                          </th></tr></tbody></table> 
+                       
+                    
+                  
+                
+              </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container0af1daba78c9b1637589460333">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><h3 style="text-align: center;">Wat vind jij van deze nieuwsbrief?</h3>
+</div><div data-editorblocktype="Image" style="padding: 0px; margin: 20px 0px 0px;"><div align="Center" class="imageWrapper"><img src="https://images-eu-prod.cms.commerce.dynamics.com/cms/api/lckqdfkxpj/imageFileData/MEapo?pubver=2" style="max-height: 100%; max-width: 100%; box-sizing: border-box; margin: 0px; position: relative; display: block; top: 0px; left: 0px; border-radius: 0px; height: 31px; width: 30px;" height="31" width="30"></div></div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="background-color: rgb(225, 244, 241); margin: 0px 20px; border-radius: 0px;"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 560px; display: block;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px; background-color: rgb(225, 244, 241); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align: top; min-width: 5px; width: 540px; height: 0px;" id="containerbd438d244b7e11637574139334">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text" style="margin: 10px 0px 0px;"><h3>Vragen?</h3>
+
+</div><div data-editorblocktype="Text" style="margin: 10px 0px 0px;"><p><span style="line-height:1.75;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu nunc dapibus, sagittis nulla eu, <u style="line-height: 1.75;"><a href="http://eneco.nl/#_msdynmkt_donottrack=0">Veelgestelde vragen</a></u></span></p>
+
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container5ec7479ad35aa1637589705647">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><p style="text-align: center;"><u>Eneco app</u>&nbsp; &nbsp; &nbsp;&nbsp;<u>Mijn Eneco</u>&nbsp; &nbsp; &nbsp;<u>Klantenservice</u>&nbsp; &nbsp; &nbsp;<u>Stroometiket</u></p>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section"><table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px;">
+                  <tbody>
+                      <tr>
+                          <th style="padding: 10px;">
+                  <table style="
+                display: block;
+                width: 100%;
+                border-collapse: collapse;
+            " class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                      <tbody>
+                      <tr>
+                          <th data-container="true" class="columnContainer" data-container-width="100" style="vertical-align:top; min-width: 5px; width: 580px; ; height: 0px;" id="container76cbdb33100e41637589785747">
+                          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                              <tbody>
+                              <tr>
+                                  <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; font-weight: normal; text-align: left;">
+                                  
+        
+                                  <div data-editorblocktype="Text"><p style="text-align: center;"><span style="color:#999999;"><span style="font-size:12px;">Deze e-mail is verzonden in opdracht van Eneco Services B.V.<span style="font-family:Etelka Light;">,&nbsp;<span class="msdynmkt_personalization">{{CompanyAddress}}</span>. Ons kenmerk: E_P_bevestinging_bet_AUTO 04-03-2021</span></span></span></p>
+</div></th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </th>
+                      </tr>
+                      </tbody>
+                  </table> 
+                      </th></tr></tbody></table> 
+                   
+                  
+              
+              
+          </div><div data-section="true" class="columns-equal-class wrap-section" style="margin: 0px;">
+                    <table class="outer" align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; display: block;">
+                        <tbody>
+                            <tr>
+                                <th style="padding: 10px; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px;">
+                                    <table style="display: block; width: 100%; border-collapse: collapse;" class="containerWrapper tbContainer" cellpadding="0" cellspacing="0">
+                                        <tbody>
+                                            <tr>
+                                                <th data-container="true" class="columnContainer" data-container-width="100" style="min-width: 5px; width: 580px; padding: 0px; height: 0px;" id="container0c4fc696b6b2b1637326905838">
+                                                    <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; height: 100%;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th class="inner ui-sortable" style="min-width: 5px; padding: 10px; vertical-align: top; word-wrap: break-word; word-break: break-word; background-color: rgba(0, 0, 0, 0); border-color: rgb(0, 0, 0); border-width: 1px; border-style: none; background-position: 50% 50%; background-size: cover; border-radius: 0px; font-weight: normal; text-align: left;">
+                                                                    <div data-editorblocktype="Text">
+                                                                        <p style="text-align: center;"><a href="{{PreferenceCenter}}"><span style="color:#1f6cf9"><font face="Verdana, Geneva, sans-serif"><span style="font-size:11px"><span class="msdynmkt_personalization">{{Afmelden}}</span></span></font></span></a></p>
+
+                                                                        
+                                                                        
+                                                                    </div>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div></body></html>
